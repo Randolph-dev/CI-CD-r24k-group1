@@ -15,7 +15,7 @@ pipeline {
               }
             }
         }
-        stage('Deploy') {
+        stage('Deliver') {
             steps {
                 echo "Simulate deployment to AWS"
             }
