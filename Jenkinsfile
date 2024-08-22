@@ -20,4 +20,4 @@ pipeline {
                 echo "Simulate deployment to AWS"
             }
         }
-    }
+    }}
