@@ -14,7 +14,7 @@ pipeline {
               echo 'Simulating tests'
               }
             }
-        }
+        
         stage('Deliver') {
             steps {
                 echo "Simulate deployment to AWS"
